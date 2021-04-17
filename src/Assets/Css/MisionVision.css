@@ -1,0 +1,57 @@
+#text-nuestra, #text-mision, #text-vision {
+	color: #000000;
+}
+
+#text-nuestra{
+	margin: 0 0 0 30%;
+	color: #ffffff;
+}
+
+#text-mision, #text-vision{
+	letter-spacing: .4rem;
+	font-family: "TruenoUltBlk";
+}
+
+#text-mision{
+	margin: -5% 0 0 30%;
+}
+
+#text-vision{
+	margin: -5% 0 0 10%;
+}
+
+#parrafo-mision, #parrafo-vision{
+	color: #000000;
+	border-color: #000000;
+}
+
+#parrafo-mision{
+	margin: 0% 0 0 30%;
+}
+
+#imagen-mision{
+	width: 130%;
+	height: auto;
+	margin: 0% -10% 0%;
+}
+
+#imagen-vision{
+	width: 125%;
+	height: auto;
+	margin: 0% 0% 0% -10%;
+}
+
+#container-4, #container-7{
+	background-color: #aabaaf;
+}
+
+.text-complete{
+	display: inline-block;
+}
+
+#text-y {
+	position: relative;
+	top: 12%;
+	color: #ffffff;
+}
+

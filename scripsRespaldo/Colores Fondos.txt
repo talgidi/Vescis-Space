@@ -1,0 +1,4 @@
+Vescis: #7c848a;
+MisionVision: #aabaaf;
+Equipo: #302e2b;
+Footer: #141414;

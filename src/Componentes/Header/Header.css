@@ -1,0 +1,41 @@
+.div-header{
+	width: 100%;
+	height: 30vh;
+	position: fixed;
+	background-color: #eeeeee;
+	margin-bottom: -2%;
+	z-index: 2;
+}
+
+.logotipo{
+	width: 30%;
+	height: auto;
+	margin-top: 1%;
+
+	animation-name: animationL;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animationL {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+	50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+		transform: translateX(0%);
+    }
+}
+
+.isotipo{
+	width: 20%;
+	height: auto;
+	position: fixed;
+	margin-top: 1.5%;
+	margin-left: 50%; 
+}

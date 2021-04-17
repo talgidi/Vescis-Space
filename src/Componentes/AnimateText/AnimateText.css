@@ -1,0 +1,191 @@
+@font-face{
+	font-family: "TruenoLt";
+	src: url("./TruenoLt.otf");
+}
+@font-face{
+	font-family: "TruenoUltBlk";
+	src: url("./TruenoUltBlk.otf");
+}
+@font-face{
+	font-family: "TruenoRg";
+	src: url("./TruenoRg.otf");
+}
+
+.hidden {
+    display: none;
+}
+
+.style1{
+	width: 100%;
+	margin: 0.5% 0 0 0;
+	font-family: "TruenoLt";
+	color: #ffffff;
+	font-size: 3.5rem;
+	z-index: 1;
+
+	animation-name: animation1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.style2{
+	width: 50%;
+	font-family: "TruenoUltBlk";
+	left: 20%;
+	color: #000000;
+	letter-spacing: .4rem;
+	font-size: 3.5rem;
+	margin: -7.5% 0 0 0;
+	z-index: 1;
+
+	animation-name: animation2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.style3{
+	width: 65%;
+	height: auto;
+	background-color: rgba(255, 255, 255, .2);
+	line-height: 200%;
+	z-index: 1;
+	font-family: "TruenoRg";
+	border: 0.15rem solid #ffffff;
+	color: #ffffff;
+
+	animation-name: animation3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+	margin: 8.5% 0 8.5% -1%;
+}
+.style3 p{
+	padding: 2% 5% 0;
+	font-size: 1.05rem;
+}
+.style4{
+	width: 50%;
+	margin: 0.5% 0 0 25%;
+	font-family: "TruenoLt";
+	color: #ffffff;
+	font-size: 3.5rem;
+	z-index: 1;
+
+	animation-name: animation4;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.style5{
+	width: 50%;
+	font-family: "TruenoUltBlk";
+	left: 20%;
+	color: #000000;
+	letter-spacing: .4rem;
+	font-size: 3.5rem;
+	margin: -7.5% 0 0 25%;
+	z-index: 1;
+
+	animation-name: animation5;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.style6{
+	width: 65%;
+	height: auto;
+	background-color: rgba(255, 255, 255, .2);
+	line-height: 200%;
+	z-index: 1;
+	font-family: "TruenoRg";
+	border: 0.15rem solid #000000;
+	color: #000000;
+
+	animation-name: animation6;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+	margin: 5% 0 8.5% 25%;
+}
+.style6 p{
+	padding: 2% 5% 0;
+	font-size: 1.05rem;
+}
+
+@keyframes animation1 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(20%);
+    }
+}
+@keyframes animation2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(120%);
+    }
+}
+@keyframes animation3 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(30%);
+    }
+}
+@keyframes animation4 {
+    0% {
+        opacity: 0;
+        transform: translateX(20%);
+    }
+	50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+		transform: translateX(0%);
+    }
+}
+@keyframes animation5 {
+    0% {
+        opacity: 0;
+        transform: translateX(120%);
+    }
+	50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+		transform: translateX(0%);
+    }
+}
+@keyframes animation6 {
+   0% {
+        opacity: 0;
+        transform: translateX(30%);
+    }
+	50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+		transform: translateX(0%);
+    }
+}

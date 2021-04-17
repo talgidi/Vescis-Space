@@ -1,0 +1,25 @@
+.misionBloque{
+	display: flex;
+	background-color: #5babbb;
+	justify-content: center;
+	padding: 5% 0 0 0;
+}
+
+.estilo2{
+	width: 50%;
+	height: 500px;
+}
+
+.estilo2 img{
+	margin: 0% 10% 5% 5%;
+	width: 55%;
+	height: auto;
+	z-index: 0;
+	position: absolute;
+}
+
+.principal{
+	z-index: 1;
+	width: 50vw;
+	padding: 0px;
+}

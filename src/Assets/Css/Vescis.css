@@ -1,0 +1,80 @@
+@font-face{
+	font-family: "TruenoLt";
+	src: url("../Fuentes/TruenoLt.otf");
+}
+@font-face{
+	font-family: "TruenoUltBlk";
+	src: url("../Fuentes/TruenoUltBlk.otf");
+}
+@font-face{
+	font-family: "TruenoRg";
+	src: url("../Fuentes/TruenoRg.otf");
+}
+
+.principal-container{
+	display: flex;
+	color: #ffffff;
+	width: 100%;
+	height: auto;
+	padding: 5% 10%;
+}
+#container-1{
+	background-color: #7c848a;
+}
+.left-container{
+	display: flex;
+	flex-direction: column;
+}
+.left-container, .right-container{
+	width: 50%;
+	height: auto;
+}
+
+.text-vescis{
+	font-size: 3.5rem;
+	margin: -5% 0 0 0;
+	z-index: 1;
+}
+
+.parrafos-text{
+	width: 80%;
+	height: auto;
+	background-color: rgba(255, 255, 255, .2);
+	line-height: 200%;
+	padding: 2% 5%;
+	margin: 10% 0 0 0;
+	z-index: 1;
+	font-family: "TruenoRg";
+	border: 0.15rem solid #ffffff;
+}
+
+#text-quienes{
+	margin: 0.5% 0 0 0;
+	font-family: "TruenoLt";
+}
+#text-vescis{
+	font-family: "TruenoUltBlk";
+	position: relative;
+	left: 50%;
+	color: #000000;
+	letter-spacing: .4rem;
+}
+
+.image-text{
+	margin: 2% 10% 5% -40%;
+	width: 150%;
+	height: auto;
+	z-index: 0;
+}
+
+.animation-left{
+	animation-name: fade;
+    animation-duration: 4s;
+}
+
+@keyframes fade {
+    0% {
+      left: -60%;
+      opacity: .0;
+    }
+}
