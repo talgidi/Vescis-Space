@@ -1,9 +1,9 @@
-.div-header{
+#div-header2{
 	width: 100%;
 	height: 30vh;
-	position: fixed;
+	position: sticky;
+	top: 0px;
 	background-color: #eeeeee;
-	margin-bottom: -2%;
 	z-index: 2;
 }
 
@@ -35,7 +35,13 @@
 .isotipo{
 	width: 20%;
 	height: auto;
-	position: fixed;
+	position: sticky;
 	margin-top: 1.5%;
 	margin-left: 50%; 
+}
+
+@media (max-width: 350px){
+	#div-header2{
+		height: 9vh;
+	}
 }

@@ -7,17 +7,21 @@ class VescisIzquierdo extends Component {
 	constructor(props){
 		super(props);
 		this.state = {
-			style1: 'style1',
-			style2: 'style2',
-			style3: 'style3'
+			style1: 'hidden',
+			style2: 'hidden',
+			style3: 'hidden',
 		}
+		console.log('esta en el constructor de vescis izquierdo');
 	}
 
 	componentDidMount() {
-    window.onscroll = () => this.handleAnimation();
+		console.log('esta en el componentdidmount1');
+		window.onscroll = () => this.handleAnimation();
+		console.log('esta en el componentdidmount2');
 	}
-
-	handleAnimation = () => {
+	
+	/*handleAnimation = () => {
+		console.log('entro en el handle animation');
 		if(document.documentElement.scrollTop > 0){
 			this.setState({
 				style1: 'style1',
@@ -35,7 +39,7 @@ class VescisIzquierdo extends Component {
 				style3: 'style3',
 			});
 		}
-	};
+	};*/
 
 	render(){
 		return(

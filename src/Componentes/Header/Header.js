@@ -16,7 +16,7 @@ class Header extends Component {
 	
 		return(
 		
-			<header>
+			<header id="div-header2">
 				<div className="div-header">
 					<img className="logotipo" src={LogotipoVescis} />
 					<img className="isotipo" src={IsotipoVescis} />

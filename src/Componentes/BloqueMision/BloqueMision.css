@@ -23,3 +23,9 @@
 	width: 50vw;
 	padding: 0px;
 }
+
+/*@media (max-width){
+	.estilo2 img{
+		overflow: hidden; 
+	}
+}*/

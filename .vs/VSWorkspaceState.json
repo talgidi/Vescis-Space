@@ -5,8 +5,10 @@
     "\\public\\imagenes",
     "\\src",
     "\\src\\Assets",
-    "\\src\\Componentes"
+    "\\src\\Componentes",
+    "\\src\\Componentes\\BloqueMision",
+    "\\src\\Componentes\\BloqueVescis"
   ],
-  "SelectedNode": "\\src\\Componentes\\BloqueMision",
+  "SelectedNode": "\\src\\Componentes\\BloqueMision\\BloqueMision.css",
   "PreviewInSolutionExplorer": false
 }

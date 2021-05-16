@@ -11,10 +11,11 @@ class MisionDerecho extends Component {
 			style5: 'hidden',
 			style6: 'hidden'
 		}
+		console.log('entro en el constructor de mision derecho');
 	}
 
 	componentDidMount() {
-    window.onscroll = () => this.handleAnimation();
+		window.onscroll = () => this.handleAnimation();
 	}
 
 	handleAnimation = () => {
