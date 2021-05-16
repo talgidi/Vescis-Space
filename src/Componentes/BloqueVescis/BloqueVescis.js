@@ -10,14 +10,15 @@ import imagenVescis from "./sound-space-3851251.jpg";
 
 class BloqueVescis extends Component {
   render() {
-    const data = this.props.data;
+    const internalData = this.props.data;
     return (
       <div className="vescisBloque">
-        <h2>{data.titleText}</h2>
-        <p>{data.paragraphText}</p>
+        <h2>{internalData.titleText}</h2>
+        <p>{internalData.paragraphText}</p>
         <img
-          src="{data.sourceImage}"
+          src={`${internalData.sourceImage}`}
           alt="This is a text for testing purposes."
+          width="50"
         />
       </div>
     );
